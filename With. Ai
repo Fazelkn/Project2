@@ -1,0 +1,107 @@
+############################
+#        CASTING
+#       10 EXAMPLES
+############################
+
+# 1 - int → float
+x = 5
+print(float(x))
+
+# 2 - float → int
+y = 3.99
+print(int(y))
+
+# 3 - str → int
+s = "25"
+print(int(s))
+
+# 4 - str → float
+s2 = "3.14"
+print(float(s2))
+
+# 5 - int → str
+num = 100
+print(str(num))
+
+# 6 - list → set
+lst = [1, 2, 2, 3]
+print(set(lst))
+
+# 7 - set → list
+st = {10, 20, 30}
+print(list(st))
+
+# 8 - str → list
+text = "hello"
+print(list(text))
+
+# 9 - bool → int
+print(int(True))
+print(int(False))
+
+# 10 - int → bool
+print(bool(0))
+print(bool(7))
+
+
+############################
+#         AND
+#      10 EXAMPLES
+############################
+
+print(5 > 2 and 3 < 10)
+x = 7
+print(x > 5 and x < 10)
+print(True and True)
+print("a" in "apple" and "p" in "apple")
+print(10 % 2 == 0 and 9 % 3 == 0)
+age = 20
+print(age > 18 and age < 30)
+print(len("hi") == 2 and len("python") > 5)
+print(4*2 == 8 and 3*3 == 9)
+a, b = 5, 5
+print(a == b and b == 5)
+username, password = "admin", "123"
+print(username == "admin" and password == "123")
+
+
+############################
+#          OR
+#      10 EXAMPLES
+############################
+
+print(5 > 10 or 5 < 10)
+x = 3
+print(x == 3 or x == 5)
+print(True or False)
+print("a" in "hello" or "e" in "hello")
+print(10 % 2 == 1 or 10 % 2 == 0)
+name = "Ali"
+print(name == "Ali" or name == "Reza")
+print(2*2 == 5 or 3*3 == 9)
+x = -1
+print(x < 0 or x > 100)
+print(len("hi") > 3 or len("hi") == 2)
+user_role = "user"
+print(user_role == "admin" or user_role == "user")
+
+
+############################
+#          NOT
+#      10 EXAMPLES
+############################
+
+print(not True)
+print(not False)
+x = 10
+print(not (x < 5))
+print(not (3 == 3))
+print(not ("a" in "banana"))
+age = 15
+print(not (age >= 18))
+print(not (5 > 2 and 3 < 1))
+print(not (10 % 2 == 0))
+active = False
+print(not active)
+print(not (len("hi") == 2))
+
